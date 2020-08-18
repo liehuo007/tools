@@ -178,7 +178,7 @@ public class MainApp {
 //		args= new String[]{"sa/@@jdbc:h2:tcp://localhost/~/test","C:\\Users\\Administrator\\Desktop\\sql_eclipse.sql","测试excel.xlsx"};  //ok
 //		args= new String[]{"sa/@@jdbc:h2:~/test","C:\\Users\\Administrator\\Desktop\\sql_eclipse.sql","测试excel.xlsx"};  //ok
 //		args= new String[]{"sa/@@jdbc:h2:~/test","sql=test.sql","file=test.xlsx"};  //ok
-//		args= new String[]{"root/root@@jdbc:mysql://localhost:3306/test","sql=test.sql","file=测试.xlsx"}; //ok
+//		args= new String[]{"root/root@@jdbc:mysql://localhost:3306/ecssent?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8","sql=test.sql","file=测试.xlsx"}; //ok
 //		args= new String[]{"system/orcl1234@@jdbc:oracle:thin:@172.16.33.183:1521/xmb","C:\\Users\\Administrator\\Desktop\\sql_eclipse.sql","测试csv.csv"};  //ok
 //		mytools.exe system/orcl1234@@jdbc:oracle:thin:@172.16.33.183:1521/xmb C:\\Users\\Administrator\\Desktop\\sql_eclipse.sql 测试csv.csv 
 		

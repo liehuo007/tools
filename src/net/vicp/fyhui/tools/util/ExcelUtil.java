@@ -143,7 +143,7 @@ public class ExcelUtil {
 //						System.err.print(String.valueOf(rs.getObject(i+1))+ "\t");
 //						body.add(String.valueOf(rs.getObject(i+1)));
 //						ExcelUtil.createCell(row, i, String.valueOf(rs.getObject(i+1)));
-						if(StringUtils.isEmpty(String.valueOf(rs.getObject(i+1)))) {
+						if(null == rs.getObject(i+1)) {
 							row.createCell(i).setCellValue("");
 						}else {
 							row.createCell(i).setCellValue(String.valueOf(rs.getObject(i+1)));
@@ -232,7 +232,7 @@ public class ExcelUtil {
 //							System.err.print(String.valueOf(rs.getObject(i+1))+ "\t");
 //							body.add(String.valueOf(rs.getObject(i+1)));
 //							createCell(row, i, String.valueOf(rs.getObject(i+1)));
-						if(StringUtils.isEmpty(String.valueOf(rs.getObject(i+1)))) {
+						if(null == rs.getObject(i+1)) {
 							row.createCell(i).setCellValue("");
 						}else {
 							row.createCell(i).setCellValue(String.valueOf(rs.getObject(i+1)));
